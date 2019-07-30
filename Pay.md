@@ -17,7 +17,7 @@
 |shop_phone|string|是|商户号|
 |shop_sub_number|string|是|商户订单号(被查询单号)|
 |bank_card_number|是|所属银行|
-|bank_name|是|交易金额，保留2位小数|
+|bank_name|是|银行名称|
 |regist_bank|否|开户银行所在地区|
 |regist_bank_name|否|开户银行|
 |city_number|否|城市编码|
