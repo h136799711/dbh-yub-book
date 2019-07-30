@@ -1,7 +1,9 @@
 # 必读说明
 
-* [必读](README.md)
-* [更新日志](History.md)
+* [A.必读](README.md)   
+* [B. 更新日志](History.md)   
+* [C.公共参数](PublicParams.md)   
+* [D.返回码](ReturnCode.md)   
 
 # 平台接口
 
