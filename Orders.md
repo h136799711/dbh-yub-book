@@ -15,15 +15,15 @@
 |参数 |类型|是否必须|备注|
 | ---------------- | ------------------------ | ------------------------ | ------------------------ |
 |shop_phone|string|是|商户号|
-|bank_card_number|是|所属银行|
-|bank_name|是|银行名称|
-|regist_bank|否|开户银行所在地区|
-|regist_bank_name|否|开户银行|
-|city_number|否|城市编码|
-|money|是|提现金额,单位:元|
-|passageway_code|是|通道代码|
-|card_user_name|是|持卡人姓名|
-|cert_number|否|持卡人身份证号码|
+|bank_card_number|string|是|所属银行|
+|bank_name|string|是|银行名称|
+|regist_bank|string|否|开户银行所在地区|
+|regist_bank_name|string|否|开户银行|
+|city_number|string|否|城市编码|
+|money|string|是|提现金额,单位:元|
+|passageway_code|string|是|通道代码|
+|card_user_name|string|是|持卡人姓名|
+|cert_number|string|否|持卡人身份证号码|
 
 **返回参数** 
 ```
