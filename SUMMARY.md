@@ -8,13 +8,11 @@
 
 * [用户登录](UserLogin.md)
 
-* [订单相关](OrderQuery.md)
+* [提现订单相关](Orders.md)
 
 # 支付方接口
 
 * [订单查看接口](OrderInfo.md)
-
-* [代付接口](Pay.md)
 
 * [余额查询接口](Balance.md)
 
