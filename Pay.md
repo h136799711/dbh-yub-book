@@ -8,7 +8,7 @@
 
 |service_version版本号|service_type服务名称|说明|
 |----|---|---|
-|100|by_Pay361_balance|接口创建|
+|100|by_Pay361_orderQuery|接口创建|
 
 **业务参数**
 
