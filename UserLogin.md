@@ -134,7 +134,7 @@
 ```
 
 
-### 1.3 用户登出、注销
+### 1.4 用户登出、注销
 
 
 能主动调用就主动调用，防止sid泄露
@@ -158,38 +158,36 @@
     "_cost": "425517us",
     "_start": 1563170680.207814,
     "code": 0,
-    "data": [
-        {
-            "id": "4",
-            "login_session_id": "C#7f8903dd9627d8c6e1f963c121f983d3",
-            "uid": "13",
-            "login_info": "\"112.16.93.124\"",
-            "login_device_type": "xiaomi",
-            "expire_time": "1562033761",
-            "create_time": "1561428961",
-            "update_time": "1561428961"
-        },
-        {
-            "id": "6",
-            "login_session_id": "C#d03013bca1de16d6f65d8e69316c5f16",
-            "uid": "13",
-            "login_info": "\"127.0.0.1\"",
-            "login_device_type": "iphone",
-            "expire_time": "1562923212",
-            "create_time": "1562318412",
-            "update_time": "1562318412"
-        },
-        {
-            "id": "11",
-            "login_session_id": "C#0c22c419ebe0aa682ec0001b5552b2c8",
-            "uid": "13",
-            "login_info": "\"112.16.93.124\"",
-            "login_device_type": "xiaomi",
-            "expire_time": "1560406086",
-            "create_time": "1559801286",
-            "update_time": "1559801286"
-        }
-    ],
+    "data": '',
+    "msg": "操作成功",
+    "notify_id": "666"
+}
+```
+
+
+### 1.5 用户更新密码 ，根据旧密码
+**版本历史**
+
+|service_version版本号|service_type服务名称|说明|
+|----|---|---|
+|100|by_UserLoginSession_updatePwdByOldPwd|接口创建|
+
+**业务参数**
+
+|参数 |类型|是否必须|备注|
+| ------- | ---------| ------- | ------------------------ |
+|old_pwd|string|是|旧密码|
+|new_pwd|string|是|新密码|
+|uid|string|是|用户id|
+|sid|string|是|会话id|
+
+**返回参数** 
+```
+{
+    "_cost": "425517us",
+    "_start": 1563170680.207814,
+    "code": 0,
+    "data": '',
     "msg": "操作成功",
     "notify_id": "666"
 }
