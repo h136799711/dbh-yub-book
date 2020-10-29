@@ -4,7 +4,7 @@
 * [B.更新日志](History.md)   
 * [C.公共参数](PublicParams.md)   
 * [D.公共返回码](ReturnCode.md)   
-* [E. 业务配置](BussinessConfig.md)   
+* [E.备忘录](note.md)   
 
 ## 1. h5前端接口
 
