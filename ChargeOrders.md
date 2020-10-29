@@ -104,7 +104,7 @@
         "passageway_code": "DF00001",
         "card_user_name": "王大纲",
         "cert_number": "33032911190011",
-        "notify_url": "http:\/\/47.56.100.242\/pay361\/notify",
+        "notify_url": "http:\/\/kjds.h.itboye.com\/pay361\/notify",
         "sign": "64f17df2dc27a61f98f9100fbbc19157",
         "create_time": 1565763147,
         "update_time": 1565763147,

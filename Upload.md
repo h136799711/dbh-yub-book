@@ -6,7 +6,7 @@
 
 #### 请求地址:
 
-http://47.56.100.242/img/index.php/picture/upload
+http://kjds.h.itboye.com/img/index.php/picture/upload
 
 #### POST请求
     
