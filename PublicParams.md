@@ -10,7 +10,7 @@ uid,sid 在后面的接口中如果出现在业务参数中，可以不用理会
 | app_version      | 发起请求的客户端应用版本 | 1.0.0                                                        |
 | app_type         | 发起请求的客户端类型     | 仅支持以下值<br />服务器后台: server<br />app: ios<br />app:android<br />前端网站:pc<br />管理后台:admin_pc<br />移动端h5页面:h5 |
 | app_request_time | 发起请求的时间戳         | 精确到秒即可，使用0时区，而不是北京时间                      |
-| lang             | 语言                     | 固定值 zh-cn                                                 |
+| lang             | 语言                     | 固定值 en, zh-cn                                                 |
 | client_id        | 请求KEY                  | 由接口方提供                                                 |
 | service_version  | 请求服务的版本号         | 默认100 ，具体参考各接口                                     |
 | service_type     | 请求的服务               | 具体的服务参考各接口                                         |
