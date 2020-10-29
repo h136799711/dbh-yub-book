@@ -7,7 +7,7 @@
 
 ## 1. h5前端接口
 
-* [1.1 用户登录、注册、密码](UserLogin.md)
+* [1.1 用户登录、注册、修改密码、退出登录](UserLoginRegister.md)
 * [1.2 用户资产相关](UserFinance.md)
 
 
