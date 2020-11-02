@@ -12,7 +12,7 @@
 * [1.2 用户地址相关](UserAddress.md)
 * [1.3 支付通道列表、充值订单创建、查询](Payment.md)
 * [1.4 用户钱包详情、明细查询](UserWallet.md)
-* [1.5 首页接口](IndexPage.md)
+* [1.5 首页、提现手续费接口](IndexPage.md)
 * [1.6 用户银行卡管理](UserBankCard.md)
 
 
