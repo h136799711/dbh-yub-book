@@ -1,10 +1,11 @@
+## 最新更新日期 2020-11-04 
+
 ## 必读说明
 
 * [A.必读](README.md)   
-* [B.更新日志](History.md)   
-* [C.公共参数](PublicParams.md)   
-* [D.公共返回码](ReturnCode.md)   
-* [E.备忘录](note.md)   
+* [B.公共参数](PublicParams.md)   
+* [C.公共返回码](ReturnCode.md)   
+* [D.备忘录](note.md)   
 
 ## 1. h5前端接口
 
