@@ -7,7 +7,7 @@
 
 |service_version版本号|service_type服务名称|说明|
 |----|---|---|
-|100|by_Fund_queryProduct_|接口创建|
+|100|by_Fund_queryProduct|接口创建|
 
 **业务参数**
 
