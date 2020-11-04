@@ -27,13 +27,13 @@
 }
 ```
 
-### 1.1 余额宝转入
+### 1.1 余额宝认购
 
 **版本历史**
 
 |service_version版本号|service_type服务名称|说明|
 |----|---|---|
-|100|by_BaoFund_purchase|接口创建|
+|100|by_BaoFund_subscribe|接口创建|
 
 **业务参数**
 
@@ -50,13 +50,13 @@
 }
 ```
 
-### 1.2 余额宝转出
+### 1.2 余额宝赎回
 
 **版本历史**
 
 |service_version版本号|service_type服务名称|说明|
 |----|---|---|
-|100|by_BaoFund_redemption|接口创建|
+|100|by_BaoFund_redeem|接口创建|
 
 **业务参数**
 

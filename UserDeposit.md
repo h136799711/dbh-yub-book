@@ -55,7 +55,7 @@
 
 |service_version版本号|service_type服务名称|说明|
 |----|---|---|
-|100|by_Fund_purchase|接口创建|
+|100|by_Fund_subscribe|接口创建|
 
 **业务参数**
 
@@ -79,7 +79,7 @@
 
 |service_version版本号|service_type服务名称|说明|
 |----|---|---|
-|100|by_Fund_redemption|接口创建|
+|100|by_Fund_redeem|接口创建|
 
 **业务参数**
 
