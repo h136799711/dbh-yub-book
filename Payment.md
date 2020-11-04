@@ -19,8 +19,6 @@
 **返回参数** 
 ```
 {
-   "_cost": "664527us",
-   "_start": 1604025970.597414,
    "code": 0,
    "data": [
        {
@@ -30,7 +28,7 @@
        }
    ],
    "msg": "操作成功",
-   "notify_id": "666"
+   
 }
 ```
 
@@ -56,13 +54,11 @@
 **返回参数** 
 ```
 {
-    "_cost": "828515us",
-    "_start": 1604045938.853342,
     "code": 0,
     // 返回的url编码过的付款链接
     "data": "http%3A%2F%2Fkjds.h.itboye.com%2Ffakepay%2Fjg1wOhQM6TZKopgnuRDOULqNVvTNnOBqtWh7cZuX%25252FnqQaFnu56AA9Ocv2r3NdbpG%25252FnX7zKMPeq0hYRublggyqVFsl1auw7YSrwkMbPaFbbBaZ7mYDnciSQ%25253D%25253D",
     "msg": "操作成功",
-    "notify_id": "666"
+    
 }
 ```
 
@@ -95,8 +91,6 @@ success 成功
 **返回参数** 
 ```
 {
-    "_cost": "549955us",
-    "_start": 1604046113.796488,
     "code": 0,
     "data": [
         {
@@ -131,6 +125,6 @@ success 成功
           }
     ],
     "msg": "操作成功",
-    "notify_id": "666"
+    
 }
 ```

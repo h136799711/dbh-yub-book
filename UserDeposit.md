@@ -173,7 +173,7 @@
 }
 ```
 
-### 1.4 我的定期
+### 1.4 我的定期产品持有情况
 
 **版本历史**
 
@@ -190,10 +190,22 @@
 **返回参数** 
 ```
 {
-    "data": {
-        "confirmAmount": "45000", // 当前已确认金额
-        "total_revenue": "0" // 总收益
-    },
+    "data": [
+        {
+            "id": 5,
+            "fund_id": 3,
+            "confirm_amount": "20000",
+            "total_revenue": "0",
+            "last_proc_time": "1605052800"
+        },
+        {
+            "id": 4,
+            "fund_id": 2,
+            "confirm_amount": "15000",
+            "total_revenue": "0",
+            "last_proc_time": "1604707200"
+        }
+    ],
     "code": 0,
     "msg": "操作成功"
 }
