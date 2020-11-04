@@ -19,5 +19,8 @@
     &nbsp;&nbsp;3.1.1 开发环境:  http://kjds.h.itboye.com/admin  
 
 4. 后台地址
-    4.1 开发环境 http://admin.kjds.h.itboye.com
-    
+    4.1 开发环境 http://admin.kjds.h.itboye.com   
+
+5. Web前端地址   
+    5.1 开发环境 	http://web.kjds.h.itboye.com;
+          
