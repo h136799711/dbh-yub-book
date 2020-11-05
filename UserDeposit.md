@@ -140,7 +140,7 @@
             "hold_fund_id": 2,
             "current_balance": "1190",
             "change_amount": "30000",
-            "change_type": "purchase", // 购买转入
+            "change_type": "subscribe", // 购买转入
             "log_date": "20201103",
             "log_time": "1604395997",
             "note": ""
@@ -152,7 +152,7 @@
             "hold_fund_id": 2,
             "current_balance": "1200",
             "change_amount": "-10",
-            "change_type": "redemption", // 赎回转出
+            "change_type": "redeem", // 赎回转出
             "log_date": "20201103",
             "log_time": "1604392954",
             "note": "1 days+0.01%"
@@ -164,7 +164,7 @@
             "hold_fund_id": 2,
             "current_balance": "0",
             "change_amount": "1200",
-            "change_type": "purchase",
+            "change_type": "subscribe",
             "log_date": "20201103",
             "log_time": "1604392345",
             "note": "1 days+0.01%"
