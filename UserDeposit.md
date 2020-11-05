@@ -105,6 +105,7 @@
 |service_version版本号|service_type服务名称|说明|
 |----|---|---|
 |100|by_Fund_query|接口创建|
+|101|by_Fund_query|修改了返回的类型值|
 
 **业务参数**
 
