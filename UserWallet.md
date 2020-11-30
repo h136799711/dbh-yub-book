@@ -38,12 +38,19 @@
 
 #### 1.2.1 log_type   
 
- 收入 deposit   
- 支出 withdraw   
- 冻结资金(场景1: 提现冻结) freeze   
- 解冻资金(场景1: 提现成功后解冻) unfreeze   
- 解冻资金回退到账户(场景1: 提现失败后回退到余额) unfreeze_back
- 
+
+以下是余额宝变动类型
+
+余额宝-充值 yeb_deposit
+
+余额宝-支出 yeb_withdraw
+
+余额宝-冻结资金（场景1: 提现冻结） yeb_freeze
+
+余额宝-解冻资金（场景1: 提现成功后解冻） yeb_unfreeze
+
+余额宝-解冻资金（场景1: 提现失败后回退到余额） yeb_unfreeze_b
+
 
 **版本历史**
 
@@ -73,7 +80,7 @@
                 "create_time": "1604037698",
                 "update_time": "1604037698",
                 "change_money": "300", // 变动资金 单位: 分
-                "log_type": "deposit" // 参考 
+                "log_type": "yeb_deposit" // 参考 
             }
         ]
     },
