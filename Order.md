@@ -121,3 +121,37 @@
 }
 ```
 
+
+### 1.3 实时佣金订单
+
+
+**版本历史**
+
+|service_version版本号|service_type服务名称|说明|
+|----|---|---|
+|100|by_KjdsOrder_queryCommission|接口创建|
+
+**业务参数**
+
+|参数 |类型|是否必须|备注|
+| ---------------- | ------------------------ | ------------------------ | ------------------------ |
+|-|-|-|-|
+
+
+**返回参数** 
+```
+{
+    "data": [
+        {
+            "id": 8,
+            "price": "50000", 
+            "item_title": "Sony WH-1000XM4 Wireless Noise-Cancelling Over-the-Ear Headphones - Blue",
+            "create_time": "1606814367",
+            "commission": 1000 
+        }
+    ],
+    "code": 0,
+    "msg": "操作成功"
+}
+```
+
