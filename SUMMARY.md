@@ -16,6 +16,7 @@
 * [1.4 用户钱包详情、明细查询](UserWallet.md)
 * [1.5 首页、提现手续费接口](IndexPage.md)
 * [1.6 用户银行卡管理](UserBankCard.md)
+* [1.7 提现接口](Withdrawals.md)
 
 ### 余额宝-活期-定期存款模块（注意测试） 
 * [2.1 余额宝明细接口(去除转入、转出)](UserFinance.md)
