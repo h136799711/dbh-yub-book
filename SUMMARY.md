@@ -34,3 +34,4 @@
 #### 
  
 * [2.1 后台提现接口](AdminWithdrawals.md)
+* [2.2 充值订单查询](AdminRechargeOrder.md)
