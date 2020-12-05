@@ -37,7 +37,7 @@
 * [2.2 充值订单、支付信息查询](AdminRechargeOrder.md)
 * [2.3 刷单查询](AdminKjdsOrder.md)
 * [2.4 银行卡、用户钱包相关](AdminUserBankCard.md)
-* [2.5 理财产品相关](AdminFundProduct.md)
+* [2.5 理财产品、用户持有理财产品查询相关](AdminFundProduct.md)
 
 
 #### 统计
