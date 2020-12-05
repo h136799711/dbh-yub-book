@@ -23,6 +23,7 @@
         "all_user": "9",  // 总用户数
         "recharge_amount": "35398000",  // 总充值成功金额
         "yesterday_reg_user": "1"  // 昨日新注册用户数
+        "withdraw_audit_cnt": "2",// 提现申请待审核数量
         "withdraw_amount": "250", // 总提现金额 
         "commission_amount": "5000", // 总刷单佣金
         "order_amount": "260000" // 总刷单金额
