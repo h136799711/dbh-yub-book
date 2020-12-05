@@ -78,6 +78,54 @@
 ### 1.2 查询某用户钱包日志
 
 
+##### log_type
+
+// 余额-收入
+const LogTypeDeposit = 'deposit';
+// 余额宝-充值
+const LogTypeDepositYeb = 'yeb_deposit';
+// 余额宝-支出
+const LogTypeWithdrawYeb = 'yeb_withdraw';
+// 余额宝-冻结资金
+const LogTypeFreezeYeb = 'yeb_freeze';
+// 余额宝-解冻资金-使用成功
+const LogTypeUnfreezeYeb = 'yeb_unfreeze';
+// 余额宝-解冻资金-使用失败并退回余额宝
+const LogTypeUnfreezeBackYeb = 'yeb_unfreeze_b';
+
+// 余额-支出
+const LogTypeWithdraw = 'withdraw';
+// 余额-冻结资金
+const LogTypeFreeze = 'freeze';
+// 余额-解冻资金
+const LogTypeUnfreeze = 'unfreeze';
+// 余额-解冻资金回退到账户
+const LogTypeUnfreezeBack = 'unfreeze_back';
+
+// 购买余额宝产品
+const LogTypeSubscribeYuebaoFunds = 'subscribe_bao';
+// 购买余额宝产品
+const LogTypeRedeemYuebaoFunds = 'redeem_bao';
+// 余额宝产品收益
+const LogTypeProfitYuebaoFunds = 'profit_bao';
+// 余额宝我的佣金收入
+const LogTypeCommissionYeb = 'commission_yeb';
+// 余额宝下一级提供的佣金收入
+const LogTypeCommissionYeb1 = 'commission1_yeb';
+// 余额宝下下一级佣金收入
+const LogTypeCommissionYeb2 = 'commission2_yeb';
+// 余额宝下下下一级佣金收入
+const LogTypeCommissionYeb3 = 'commission3_yeb';
+
+// 购买理财产品
+const LogTypeSubscribeFunds = 'subscribe_funds';
+// 赎回理财产品并返回到余额宝
+const LogTypeRedeemFundsToYuebao = 'redeem_funds_yb';
+// 赎回理财产品并返回余额
+const LogTypeRedeemFunds = 'redeem_funds';
+// 理财产品收益
+const LogTypeProfitFunds = 'profit_funds';
+
 **版本历史**
 
 |service_version版本号|service_type服务名称|说明|
@@ -244,3 +292,37 @@
 }
 ```
 
+
+
+### 1.3 查询某用户钱包详情
+
+
+**版本历史**
+
+|service_version版本号|service_type服务名称|说明|
+|----|---|---|
+|100|by_UserWallet_info|接口创建|
+
+**业务参数**
+
+|参数 |类型|是否必须|备注|
+| ---------------- | ------------------------ | ------------------------ | ------------------------ |
+|user_id|integer|是|查询某一用户id|
+
+
+**返回参数** 
+````
+{
+    "data": {
+        "id": 26,
+        "uid": 108,
+        "balance": "0", // 余额 暂时用不到
+        "frozen": "100", // 冻结资金
+        "withdraw_total": "0", // 已提现成功资金
+        "yuebao": "1021", // 余额宝
+        "financial": "0" // 理财资金
+    },
+    "code": 0,
+    "msg": "操作成功"
+}
+````
