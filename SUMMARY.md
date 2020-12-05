@@ -35,7 +35,8 @@
  
 * [2.1 后台提现接口](AdminWithdrawals.md)
 * [2.2 充值订单、支付信息查询](AdminRechargeOrder.md)
-* [2.2 刷单查询](AdminKjdsOrder.md)
+* [2.3 刷单查询](AdminKjdsOrder.md)
+* [2.4 银行卡、用户钱包相关](AdminUserBankCard.md)
 
 
 #### 统计
