@@ -39,6 +39,7 @@
 * [2.4 银行卡、用户钱包相关](AdminUserBankCard.md)
 * [2.5 理财产品、用户持有理财产品查询相关](AdminFundProduct.md)
 * [2.6 产品库查询相关](AdminGoods.md)
+* [2.7 用户邀请关系相关](AdminUserRelation.md)
 
 
 #### 统计
