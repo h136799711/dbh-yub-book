@@ -20,57 +20,22 @@
 ```
 {
     "data": {
-        "count": "5",
+        "count": "1",
         "list": [
             {
-                "id": 5,
-                "uid": "108",
-                "create_time": "1606878476",
-                "update_time": "1606878476",
+                "id": 24,
+                "uid": "129",
+                "account_email": "kichuak728@gmail.com",
+                "name": "KRISHNAN PK",
+                "account_no": "3945058150",
+                "account_company": "KOTAK MAHINDRA BANK",
+                "account_branch_company": "KKBK0008659",
+                "create_time": "1610507244",
+                "update_time": "1610507244",
                 "audit_nick": "",
-                "amount": "100",
-                "to_wallet_info":"{\"card_no\":\"62625262626252\",\"bank_name\":\"\中\国\银\行\",\"name\":\"\王\大\锤\",\"branch_name\":\"\中\国\杭\州\分\支\"}",
+                "amount": "10000",
+                "to_wallet_info": "{\"ifsc\":\"KKBK0008659\"}",
                 "audit_status": 0
-            },
-            {
-                "id": 4,
-                "uid": "108",
-                "create_time": "1604370879",
-                "update_time": "1604370891",
-                "audit_nick": "网1",
-                "amount": "150",
-                "to_wallet_info":"{\"card_no\":\"62625262626252\",\"bank_name\":\"\中\国\银\行\",\"name\":\"\王\大\锤\",\"branch_name\":\"\中\国\杭\州\分\支\"}",
-                "audit_status": 1
-            },
-            {
-                "id": 3,
-                "uid": "108",
-                "create_time": "1604370863",
-                "update_time": "1604370873",
-                "audit_nick": "网1",
-                "amount": "100",
-                "to_wallet_info":"{\"card_no\":\"62625262626252\",\"bank_name\":\"\中\国\银\行\",\"name\":\"\王\大\锤\",\"branch_name\":\"\中\国\杭\州\分\支\"}",
-                "audit_status": -1
-            },
-            {
-                "id": 2,
-                "uid": "108",
-                "create_time": "1604370721",
-                "update_time": "1604370731",
-                "audit_nick": "网1",
-                "amount": "100",
-                "to_wallet_info":"{\"card_no\":\"62625262626252\",\"bank_name\":\"\中\国\银\行\",\"name\":\"\王\大\锤\",\"branch_name\":\"\中\国\杭\州\分\支\"}",
-                "audit_status": -1
-            },
-            {
-                "id": 1,
-                "uid": "108",
-                "create_time": "1604370118",
-                "update_time": "1604370313",
-                "audit_nick": "网1",
-                "amount": "100",
-                "to_wallet_info":"{\"card_no\":\"62625262626252\",\"bank_name\":\"\中\国\银\行\",\"name\":\"\王\大\锤\",\"branch_name\":\"\中\国\杭\州\分\支\"}",
-                "audit_status": 1
             }
         ]
     },

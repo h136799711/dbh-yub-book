@@ -14,11 +14,12 @@
 
 |参数 |类型|是否必须|备注|
 | ---------------- | ------------------------ | ------------------------ | ------------------------ |
-|mobile|string|是|联系号码|
-|name|string|是|姓名|
+|mobile|string|是|银行卡手机号|
+|name|string|是|银行卡姓名|
 |card_no|string|是|银行卡号|
 |opening_bank|string|是|银行名|
-|branch_bank|string|是|开户行分支名称|
+|ifsc_code|string|是|银行ifsc编码|
+|email|string|是|银行绑定邮箱|
 
 **返回参数** 
 ```
@@ -49,7 +50,8 @@
 |name|string|是|姓名|
 |card_no|string|是|银行卡号|
 |opening_bank|string|是|银行名|
-|branch_bank|string|是|开户行分支名称|
+|ifsc_code|string|是|银行ifsc编码|
+|email|string|是|银行绑定邮箱|
 
 **返回参数** 
 ```
@@ -81,38 +83,21 @@
 **返回参数** 
 ```
 {
-    "code": 0,
-    "data": [
-        {
-            "id": "4",
-            "uid": "108",
-            "card_no": "62625262626252",
-            "opening_bank": "中国银行修改",
-            "branch_bank": "中国杭州分支",
-            "name": "王大锤",
-            "mobile": "15555555"
-        },
-        {
-            "id": "3",
-            "uid": "108",
-            "card_no": "62625262626252",
-            "opening_bank": "中国银行",
-            "branch_bank": "中国杭州分支",
-            "name": "王大锤",
-            "mobile": "15555555"
-        },
-        {
-            "id": "1",
-            "uid": "108",
-            "card_no": "62625262626252",
-            "opening_bank": "中国银行",
-            "branch_bank": "中国杭州分支",
-            "name": "王大锤",
-            "mobile": "15555555"
-        }
-    ],
-    "msg": "success",
-    
+   "data": [
+       {
+           "id": "12",
+           "uid": "129",
+           "email": "kichuak728@gmail.com",
+           "card_no": "3945058150",
+           "opening_bank": "KOTAK MAHINDRA BANK",
+           "branch_bank": "KKBK0008659",
+           "name": "KRISHNAN PK",
+           "mobile": "7904303261",
+           "ifsc_code": "KKBK0008659"
+       }
+   ],
+   "code": 0,
+   "msg": "success"
 }
 ```
 
